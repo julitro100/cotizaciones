@@ -1,11 +1,132 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
+<html data-ng-app="main">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title></title>
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/flaticon.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		<link rel="stylesheet" href="css/prettify.css" />
+		<link href="css/main.min.css" rel="stylesheet" />
+		
+		<link href="css/select2-bootstrap.css" rel="stylesheet" />
+		<link href="css/select2.min.css" rel="stylesheet" />
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
-    xxxxxxxx
-</body>
+		<link href="css/selectize.css" rel="stylesheet" />
+		<link href="css/selectize.bootstrap3.css" rel="stylesheet" />
+				
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/datepicker.min.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.notify.css">
+		<!-- Custom CSS -->
+		<link href="css/simple-sidebar.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- <link rel="shortcut icon" href="favicon.ico?v=1.1">
+		<link rel="shortcut icon" href="img/favicon.png"> -->
+
+	</head>
+	<body>
+		<nav class="navbar navbar-info bmd-floating">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand bmd-ripple" href="#">GRISIA S.A.C.</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<!-- <ul class="nav navbar-nav" nav nav-tabs bmd-nav-tabs bmd-nav-tabs-info>
+						<li class="active"><a href="#" class="bmd-ripple">Información de la Empresa<span class="sr-only">(current)</span></a></li>
+						<li class=""><a href="login" class="bmd-ripple">Ubicación<span class="sr-only">(current)</span></a></li>
+					</ul> -->
+					<ul class="nav navbar-nav">				  
+						<li class="dropdown bmd-dropdown">
+							<a class="dropdown-toggle bmd-ripple" data-toggle="dropdown" href="#">
+							Información de la Empresa<i class="flaticon-show8"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#dropdown1-2" data-toggle="tab">Quienes Somos</a></li>
+								<li class="divider"></li>
+								<li><a href="#dropdown2-2" data-toggle="tab">Productos</a></li>
+								<li><a href="#dropdown3-3" data-toggle="tab">Contactos</a></li>
+							</ul>
+						</li>
+						<li class=""><a href="#profile-2" data-toggle="tab" class="bmd-ripple" aria-expanded="false">Ubicación</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+				
+		<div class="bmd-page-container">
+			<div class="container">
+				<div class="row container">
+					<div class="col-sm-12">
+						<div data-ng-view></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+  		<script src="js/prettify.js"></script>
+  		<script src="js/main.min.js"></script>
+  		<script src="js/jspdf.min.js"></script>
+		<!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/string.min.js"></script>
+		<!-- angular js -->
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular.locale.es.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<!--/ angular js -->
+		<!--  Otras librerias -->
+
+		<script type="text/javascript" src="js/moment.min.js"></script>
+
+		<script type="text/javascript" src="js/datepicker.min.js"></script>
+		<script type="text/javascript" src="js/select2.min.js"></script>
+
+		<script type="text/javascript" src="js/selectize.min.js"></script>
+
+		<script type="text/javascript" src="js/taffy-min.js"></script>
+		<script type="text/javascript" src="js/jquery.notify.min.js"></script>
+		<script type="text/javascript" src="js/jquery.inputmask.bundle.min.js"></script>
+		<!--/ Otras librerias -->
+		<!-- App -->
+		<script src="app/app.js"></script>
+		<script src="app/config/config.js"></script>
+		<!--/ App -->
+		<!-- Filters -->
+		<script type="text/javascript" src="app/filters/tipo.filter.js"></script>
+		<script type="text/javascript" src="app/filters/date.filter.js"></script>
+		<!--/ Filters -->
+		<!-- Controllers -->
+		<script type="text/javascript" src="app/controllers/registro.controller.js"></script>
+		<!--/ Controllers -->		
+		<!-- Util Services -->
+		<script type="text/javascript" src="app/services/utils/notification.service.js"></script>
+		<script type="text/javascript" src="app/services/utils/validation.service.js"></script>
+		<script type="text/javascript" src="app/services/utils/tab.service.js"></script>
+		<script type="text/javascript" src="app/services/utils/mask.service.js"></script>
+		<script type="text/javascript" src="app/services/utils/utils.service.js"></script>
+		<!--/ Util Services -->
+	</body>
 </html>
