@@ -2,7 +2,7 @@
 	<div class="col-md-12">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				<h5>Cotización Registrada</h5>
+				<h5>CotizaciÃ³n</h5>
 			</div>
 			<div class="panel-body">
 				<div class="table-responsive">
@@ -10,7 +10,7 @@
 					<table class="table table-striped table-hover ">
 						<thead>
 							<tr class="info">
-								<th class="col-md-1">Nº</th>
+								<th class="col-md-1">NÂº</th>
 								<th class="col-md-4">Nombre de Contacto</th>
 								<th class="col-md-4"></th>
 								<th class="col-md-2"></th>
@@ -45,13 +45,13 @@
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-					<h4 class="modal-title">Presentación de la Cotización</h4>
+					<h4 class="modal-title">PresentaciÃ³n de la CotizaciÃ³n</h4>
 				</div>
 				<div id="form-cotizacion" class="modal-body">					
 					<div class="row">
 		                <div class="col-md-12">
 		                    <div class="form-group">
-		                        <label>Descripción del Requerimiento: </label>
+		                        <label>DescripciÃ³n del Requerimiento: </label>
 		                        <textarea id="txt-descripcion" class="form-control" rows="3" data-ng-model="" readonly></textarea>
 		                    </div>
 		                </div>
@@ -79,8 +79,8 @@
 								<table class="table table-striped table-hover">
 									<thead>
 										<tr>
-											<th class="col-md-1">Nº</th>
-											<th class="col-md-4">Descripción</th>
+											<th class="col-md-1">NÂº</th>
+											<th class="col-md-4">DescripciÃ³n</th>
 											<th class="col-md-3">Cantidad</th>
 											<th class="col-md-3">Precio</th>
 											<th class="col-md-3">Subtotal</th>
@@ -110,7 +110,7 @@
 		                        <label>
 		                        	Precio: En dolares americanos y no incluye el I.G.V.<br/>
 		                        	Forma de pago: 50% de adelanto, saldo contra entrega.<br/>
-		                        	Validez de la oferta: 07 días o hasta agotar stock.
+		                        	Validez de la oferta: 07 dÃ­as o hasta agotar stock.
 		                        </label>
 		                    </div>
 		                </div>
@@ -121,7 +121,7 @@
 				<div class="modal-footer">
 					<button class="btn btn-info bmd-ripple bmd-floating" data-ng-click="">
 						<i class="fa fa-paper-plane"></i> 
-						Enviar Cotización
+						Enviar CotizaciÃ³n
 					</button>
 				</div>
 			</div>
@@ -160,7 +160,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-3 control-label" >País de nacimiento:</label>
+						<label class="col-md-3 control-label" >PaÃ­s de nacimiento:</label>
 						<div class="col-md-4">
 							<select id="sel-dp-pais-nacimiento" data-ng-model="profileCtrl.persona.paisNacimientoId" class="form-control pais">
 								<option data-ng-repeat="pais in profileCtrl.paises" value="{{pais.paisId}}">{{pais.nombre}}</option>
@@ -186,9 +186,9 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-3 control-label">Número Documento:</label>
+						<label class="col-md-3 control-label">NÃºmero Documento:</label>
 						<div class="col-md-6">
-							<input id="txt-dp-numero-documento" data-ng-model="profileCtrl.persona.numeroDocumento" type="text" class="form-control" placeholder="Número de Documento" />
+							<input id="txt-dp-numero-documento" data-ng-model="profileCtrl.persona.numeroDocumento" type="text" class="form-control" placeholder="NÃºmero de Documento" />
 						</div>
 					</div>
 					<div class="form-group">
@@ -210,27 +210,27 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-3 control-label">Teléfono Fijo:</label>
+						<label class="col-md-3 control-label">TelÃ©fono Fijo:</label>
 						<div class="col-md-4">
-							<input id="txt-dp-telefono" data-ng-model="profileCtrl.persona.telefono" type="text" class="form-control" placeholder="Teléfono Fijo" required/>
+							<input id="txt-dp-telefono" data-ng-model="profileCtrl.persona.telefono" type="text" class="form-control" placeholder="TelÃ©fono Fijo" required/>
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-3 control-label">Teléfono Celular:</label>
+						<label class="col-md-3 control-label">TelÃ©fono Celular:</label>
 						<div class="col-md-4">
-							<input id="txt-dp-celular" data-ng-model="profileCtrl.persona.celular" type="text" class="form-control" placeholder="Teléfono Celular" required />
+							<input id="txt-dp-celular" data-ng-model="profileCtrl.persona.celular" type="text" class="form-control" placeholder="TelÃ©fono Celular" required />
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-3 control-label">Correo Electrónico:</label>
+						<label class="col-md-3 control-label">Correo ElectrÃ³nico:</label>
 						<div class="col-md-9">
-							<input id="txt-dp-correo" data-ng-model="profileCtrl.persona.email" type="email" class="form-control" placeholder="CORREO ELECTRÓNICO" required/>
+							<input id="txt-dp-correo" data-ng-model="profileCtrl.persona.email" type="email" class="form-control" placeholder="CORREO ELECTRÃ“NICO" required/>
 						</div>
 					</div>					
 					<div class="form-group">
-						<label class="col-md-3 control-label">Dirección domiciliaria:</label>
+						<label class="col-md-3 control-label">DirecciÃ³n domiciliaria:</label>
 						<div class="col-md-9">
-							<input id="txt-dp-direccion" data-ng-model="profileCtrl.persona.direccion" type="text" class="form-control mayuscula" placeholder="Dirección domiciliaria" />
+							<input id="txt-dp-direccion" data-ng-model="profileCtrl.persona.direccion" type="text" class="form-control mayuscula" placeholder="DirecciÃ³n domiciliaria" />
 						</div>
 					</div>
 					<div class="form-group">
@@ -289,7 +289,7 @@
 	</div>
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			<h4>Información Financiera</h4>
+			<h4>InformaciÃ³n Financiera</h4>
 		</div>
 		<div class="panel-body">
 			<div class="row">
@@ -301,17 +301,17 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-3 control-label" >Número de Cuenta:</label>
+						<label class="col-md-3 control-label" >NÃºmero de Cuenta:</label>
 						<div class="col-md-9">
-							<input id="txt-if-cuenta" data-ng-model="profileCtrl.persona.cuenta" type="text" class="form-control cuenta" placeholder="Número de Cuenta" />
+							<input id="txt-if-cuenta" data-ng-model="profileCtrl.persona.cuenta" type="text" class="form-control cuenta" placeholder="NÃºmero de Cuenta" />
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-md-3 control-label" >CCI:</label>
 						<div class="col-md-9">
-							<input id="txt-if-cci" data-ng-model="profileCtrl.persona.CCI" type="text" class="form-control cci" placeholder="Código de Cuenta Interbancario" />
-							<p style="font-size: 11px;color: gray;">Ingresa los 20 dígitos de la cuenta de destino (CCI) sin considerar espacios en blanco o alguno de los símbolos: (-) (,) (/) (*).
-							<br /> Por ejemplo: Si el CCI que vas a ingresar es de la forma 002-100-012022434968-49 ingrésalo de esta manera: 00210001202243496849</p>
+							<input id="txt-if-cci" data-ng-model="profileCtrl.persona.CCI" type="text" class="form-control cci" placeholder="CÃ³digo de Cuenta Interbancario" />
+							<p style="font-size: 11px;color: gray;">Ingresa los 20 dÃ­gitos de la cuenta de destino (CCI) sin considerar espacios en blanco o alguno de los sÃ­mbolos: (-) (,) (/) (*).
+							<br /> Por ejemplo: Si el CCI que vas a ingresar es de la forma 002-100-012022434968-49 ingrÃ©salo de esta manera: 00210001202243496849</p>
 						</div>
 					</div>
 				</div>
@@ -322,12 +322,12 @@
 	</div>
 	<div  class="panel panel-default">
 		<div id="panel-computacion" class="panel-heading">
-			<h4>Conocimientos en Computación</h4>
+			<h4>Conocimientos en ComputaciÃ³n</h4>
 		</div>
 		<div class="panel-body">
 			<div class="row">
 				<div class="form-group">
-					<label class="control-label col-md-3">¿Tiene Ud. Conocimientos en computación?</label>
+					<label class="control-label col-md-3">Â¿Tiene Ud. Conocimientos en computaciÃ³n?</label>
 					<div class="col-md-1">
 						<div class="radio bmd-radio">
 							<label>
@@ -363,12 +363,12 @@
 
 	<div  class="panel panel-default">
 		<div id="panel-informacion-adicional" class="panel-heading">
-			<h4>Información Adicional</h4>
+			<h4>InformaciÃ³n Adicional</h4>
 		</div>
 		<div class="panel-body">
 			<div class="row">
 				<div class="form-group">
-					<label  class="col-md-3 control-label">¿Ha trabajado en la APCI?</label>
+					<label  class="col-md-3 control-label">Â¿Ha trabajado en la APCI?</label>
 					<div class="col-md-1">
 						<div class="radio bmd-radio">
 							<label>
@@ -391,7 +391,7 @@
 			</div>
 			<div class="row">
 				<div class="form-group">
-					<label  class="col-md-3 control-label">¿Tiene familiares trabajando en la APCI?</label>
+					<label  class="col-md-3 control-label">Â¿Tiene familiares trabajando en la APCI?</label>
 					<div class="col-md-1">
 						<div class="radio bmd-radio">
 							<label>
@@ -414,7 +414,7 @@
 			</div>
 			<div class="row">
 				<div class="form-group">
-					<label  class="col-md-3 control-label">¿Ocupa un cargo directivo en una ONGD / ENIEX?</label>
+					<label  class="col-md-3 control-label">Â¿Ocupa un cargo directivo en una ONGD / ENIEX?</label>
 					<div class="col-md-1">
 						<div class="radio bmd-radio">
 							<label>
@@ -437,7 +437,7 @@
 			</div>
 			<div class="row">
 				<div class="form-group">
-					<label  class="col-md-3 control-label">¿Anteriormente ha ocupado un cargo directivo en una ONGD / ENIEX?</label>
+					<label  class="col-md-3 control-label">Â¿Anteriormente ha ocupado un cargo directivo en una ONGD / ENIEX?</label>
 					<div class="col-md-1">
 						<div class="radio bmd-radio">
 							<label>
