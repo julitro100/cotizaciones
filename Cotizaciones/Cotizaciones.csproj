@@ -48,6 +48,10 @@
       <HintPath>..\packages\Nancy.Hosting.Self.1.3.0\lib\net40\Nancy.Hosting.Self.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -59,8 +63,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\PedidoController.cs" />
+    <Compile Include="Controllers\DatabaseController.cs" />
     <Compile Include="Controllers\IndexController.cs" />
-    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Controllers\TipoController.cs" />
+    <Compile Include="Controllers\Util\ControllerUtil.cs" />
+    <Compile Include="Models\Pedido.cs" />
+    <Compile Include="Models\Context.cs" />
+    <Compile Include="Models\Cotizacion.cs" />
+    <Compile Include="Models\CotizacionDetalle.cs" />
+    <Compile Include="Models\Producto.cs" />
+    <Compile Include="Models\Tipo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

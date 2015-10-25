@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Cotizaciones.Models
 {
-    public class Cliente
+    public class Pedido
     {
-        public int ClienteId { get; set; }
+        public int PedidoId { get; set; }
         public string Nombre { get; set; }
         public string Empresa { get; set; }
-        public string Correo { get; set; }
-        public string Detalle { get; set; }
+        public string Email { get; set; }
         public string Telefono { get; set; }
+        public string Detalle { get; set; }
+
     }
 }
