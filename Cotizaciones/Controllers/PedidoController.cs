@@ -1,4 +1,5 @@
-﻿using Cotizaciones.Models;
+﻿using Cotizaciones.Controllers.Util;
+using Cotizaciones.Models;
 using Nancy;
 using Nancy.ModelBinding;
 using System;
@@ -14,30 +15,32 @@ namespace Cotizaciones.Controllers
         public PedidoController() : base("/api/pedido")
         {
             Get["/"] = index;
+            Post["/"] = add;
         }
 
         private dynamic index(dynamic args)
         {
-            return "Lista de Clientes";
+            using (var ctx = new Context())
+            {
+                List<Pedido> pedidos = ctx.Pedido.ToList<Pedido>();
+
+                return ControllerUtil.getList(pedidos);
+            } 
         }
 
         private dynamic add(dynamic arg)
         {
             try
             {
-               // if ((this.Context.CurrentUser != null) && !string.IsNullOrWhiteSpace(this.Context.CurrentUser.UserName))
-               // {
-                    //this.RequiresClaims(BLL.Security.Recurso.roles(this.Context.ResolvedRoute.Description.Path));
-
-                    var pedido = this.Bind<Pedido>();
+                var pedido = this.Bind<Pedido>();
                     
                 using(var ctx = new Context()) {
 
                     pedido = ctx.Pedido.Add(pedido);
+                    ctx.SaveChanges();
                 }
 
-                    return Negotiate.WithStatusCode(HttpStatusCode.OK);
-               // }
+                return Negotiate.WithStatusCode(HttpStatusCode.OK).WithModel(pedido);
             }
             catch (Exception) { }
             return new Response { StatusCode = HttpStatusCode.InternalServerError };

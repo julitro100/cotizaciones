@@ -17,14 +17,6 @@ c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\app.js
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\config\config.app.js
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\config\config.js
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\controllers\capacitacion.controller.js
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\controllers\experiencia.controller.js
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\controllers\formacion.controller.js
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\controllers\idioma.controller.js
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\controllers\menu.controller.js
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\controllers\profile.controller.js
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\controllers\registro.controller.js
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\controllers\registro.controller2.js
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\filters\date.filter.js
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\filters\tipo.filter.js
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\filters\total.filter.js
@@ -85,13 +77,7 @@ c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\js\selectize.min.js
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\js\string.min.js
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\js\taffy-min.js
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\views\capacitacion.jsp
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\views\contacto.jsp
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\views\experiencia.jsp
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\views\formacion.jsp
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\views\idioma.jsp
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\views\inicio.jsp
-c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\views\mensaje.jsp
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\views\registrocotizacion.jsp
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\css\bootstrap.min.csss
 c:\users\clopez\documents\visual studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\fonts\flaticon.ttf
@@ -214,3 +200,7 @@ C:\Users\rafael\Documents\Visual Studio 2013\Projects\cotizaciones\Cotizaciones\
 C:\Users\rafael\Documents\Visual Studio 2013\Projects\cotizaciones\Cotizaciones\obj\Debug\Cotizaciones.csprojResolveAssemblyReference.cache
 C:\Users\rafael\Documents\Visual Studio 2013\Projects\cotizaciones\Cotizaciones\bin\Debug\Newtonsoft.Json.dll
 C:\Users\rafael\Documents\Visual Studio 2013\Projects\cotizaciones\Cotizaciones\bin\Debug\Newtonsoft.Json.xml
+C:\Users\clopez\Documents\Visual Studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Newtonsoft.Json.dll
+C:\Users\clopez\Documents\Visual Studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Newtonsoft.Json.xml
+C:\Users\clopez\Documents\Visual Studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\controllers\pedido.controller.js
+C:\Users\clopez\Documents\Visual Studio 2013\Projects\Cotizaciones\Cotizaciones\bin\Debug\Content\app\controllers\registro.controller.js

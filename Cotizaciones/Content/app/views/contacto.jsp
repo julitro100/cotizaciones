@@ -1,5 +1,5 @@
 
-<div id="myTabContent" class="tab-content">
+<div id="myTabContent" class="tab-content" data-ng-controller="PedidoController as pedidoCtrl">
   	<div class="tab-pane fade active in" id="home-2">
   		
   		   
@@ -189,7 +189,7 @@
 			    	<div class="col-md-6">
 					    <div class="form-group">
 							<div class="bmd-field-group">
-								<input id="txt-nombres" type="text" class="bmd-input" required="" />
+								<input id="txt-nombres" type="text" class="bmd-input" data-ng-model="pedidoCtrl.pedido.nombre" required="" />
 								<span class="bmd-bar"></span>
 								<label class="bmd-label">Nombres y Apellidos</label>
 								<span class="bmd-field-feedback"></span>
@@ -197,7 +197,7 @@
 						</div>
 						<div class="form-group">
 							<div class="bmd-field-group">
-								<input id="txt-empresa" type="text" class="bmd-input" required="" />
+								<input id="txt-empresa" type="text" class="bmd-input" data-ng-model="pedidoCtrl.pedido.empresa" required="" />
 								<span class="bmd-bar"></span>
 								<label class="bmd-label">Empresa</label>
 								<span class="bmd-field-feedback"></span>
@@ -205,7 +205,7 @@
 						</div>
 						<div class="form-group">
 							<div class="bmd-field-group">
-								<input id="txt-telefono" type="text" class="bmd-input" required="" />
+								<input id="txt-telefono" type="text" class="bmd-input" data-ng-model="pedidoCtrl.pedido.telefono" required="" />
 								<span class="bmd-bar"></span>
 								<label class="bmd-label">Teléfono</label>
 								<span class="bmd-field-feedback"></span>
@@ -213,7 +213,7 @@
 						</div>
 						<div class="form-group">
 							<div class="bmd-field-group">
-								<input id="txt-email" type="email" class="bmd-input" required="" />
+								<input id="txt-email" type="email" class="bmd-input" data-ng-model="pedidoCtrl.pedido.email" required="" />
 								<span class="bmd-bar"></span>
 								<label class="bmd-label">E-mail</label>
 								<span class="bmd-field-feedback"></span>
@@ -221,7 +221,7 @@
 						</div>
 						<div class="form-group">
 							<div class="bmd-field-group">
-								<textarea id="txt-detalle" rows="6" type="text" class="bmd-input" required=""></textarea>
+								<textarea id="txt-detalle" rows="6" type="text" class="bmd-input" data-ng-model="pedidoCtrl.pedido.detalle" required=""></textarea>
 								<span class="bmd-bar"></span>
 								<label class="bmd-label">Detalle</label>
 								<span class="bmd-field-feedback"></span>
@@ -229,7 +229,7 @@
 						</div>
 						<div class="form-group">
 							<div class="col-lg-10 col-lg-offset-2">
-								<button href="#" class="btn btn-primary bmd-ripple">Enviar</button>
+								<button href="#" class="btn btn-primary bmd-ripple" data-ng-click="pedidoCtrl.guardar()">Enviar</button>
 							</div>
 						</div>
 					</div>

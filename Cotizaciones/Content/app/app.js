@@ -2,9 +2,9 @@ var app = angular.module('main',['ngRoute'])
 
 .constant("APP", 
 		{
-		    "URL"		: "/aplicativocotizaciones/",
-		    "URL_API"	: "/aplicativocotizaciones/api/v1/",
-		    "URL_LOGIN"	: "/aplicativocotizaciones/login"
+		    "URL"		: "/",
+		    "URL_API"	: "/api/",
+		    "URL_LOGIN"	: "/login"
 		}
 )
 .constant("DATE", 

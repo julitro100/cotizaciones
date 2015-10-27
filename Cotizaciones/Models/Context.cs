@@ -12,8 +12,8 @@ namespace Cotizaciones.Models
     public class Context : DbContext
     {
         public DbSet<Pedido> Pedido { get; set; }
-        public DbSet<Cotizacion> Contizacion { get; set; }
-        public DbSet<CotizacionDetalle> ContizacionDetalle { get; set; }
+        public DbSet<Cotizacion> Cotizacion { get; set; }
+        public DbSet<CotizacionDetalle> CotizacionDetalle { get; set; }
         public DbSet<Producto> Producto { get; set; }
         public DbSet<Tipo> Tipo { get; set; }
 
@@ -23,6 +23,7 @@ namespace Cotizaciones.Models
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+
         }
     }
 }
