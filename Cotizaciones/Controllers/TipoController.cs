@@ -20,7 +20,7 @@ namespace Cotizaciones.Controllers
             using (var ctx = new Context())
             {
                 List<Tipo> tipos = ctx.Tipo.ToList<Tipo>();
-                return ControllerUtil.getList(tipos);
+                return ControllerUtil.toJSON(tipos);
             }
         }
     }

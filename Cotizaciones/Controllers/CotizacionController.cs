@@ -13,24 +13,29 @@ namespace Cotizaciones.Controllers
     {
         public CotizacionController() : base("/api/cotizacion")
         {
-            Post["/"] = add;
+            Post["/{PedidoId}"] = add;
         }
 
         public dynamic add(dynamic args)
         {
             try
             {
-                var cotizacion = this.Bind<Cotizacion>();
-
+                Cotizacion cotizacion=null;
                 using (var ctx = new Context())
                 {
 
-                    cotizacion = ctx.Cotizacion.Add(cotizacion);
+                    cotizacion = ctx.Cotizacion.Add(new Cotizacion()
+                    {
+                        PedidoId = args.PedidoId,
+                        Fecha = DateTime.Now
+                    });
+
+                    ctx.SaveChanges();
                 }
 
                 return Negotiate.WithStatusCode(HttpStatusCode.OK).WithModel(cotizacion);
             }
-            catch (Exception) { }
+            catch (Exception e) { }
             return new Response { StatusCode = HttpStatusCode.InternalServerError };
         }
     }

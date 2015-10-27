@@ -14,6 +14,7 @@ namespace Cotizaciones.Models
         public string Email { get; set; }
         public string Telefono { get; set; }
         public string Detalle { get; set; }
+        public bool Atendido { get; set; }
 
     }
 }

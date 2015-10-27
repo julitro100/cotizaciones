@@ -24,7 +24,7 @@ namespace Cotizaciones.Controllers
             {
                 List<Pedido> pedidos = ctx.Pedido.ToList<Pedido>();
 
-                return ControllerUtil.getList(pedidos);
+                return ControllerUtil.toJSON(pedidos);
             } 
         }
 

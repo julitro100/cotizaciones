@@ -150,9 +150,9 @@
 
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-info bmd-ripple bmd-floating" data-ng-click="">
+					<button class="btn btn-info bmd-ripple bmd-floating" data-ng-click="regCtrl.registrar()">
 						<i class="fa fa-paper-plane"></i> 
-						Enviar Cotización
+						 Enviar Cotización
 					</button>
 				</div>
 			</div>

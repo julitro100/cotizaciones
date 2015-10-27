@@ -10,7 +10,7 @@ namespace Cotizaciones.Controllers.Util
 {
     public class ControllerUtil
     {
-        public static dynamic getList<T>(ICollection<T> pList)
+        public static dynamic toJSON<T>(ICollection<T> pList)
         {
             if (pList.Count() > 0)
             {

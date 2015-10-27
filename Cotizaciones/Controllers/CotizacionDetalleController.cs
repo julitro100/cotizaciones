@@ -26,6 +26,8 @@ namespace Cotizaciones.Controllers
                 {
 
                     detalle = ctx.CotizacionDetalle.Add(detalle);
+
+                    ctx.SaveChanges();
                 }
 
                 return Negotiate.WithStatusCode(HttpStatusCode.OK).WithModel(detalle);

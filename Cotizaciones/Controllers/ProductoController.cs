@@ -21,7 +21,7 @@ namespace Cotizaciones.Controllers
             {
                 List<Producto> productos = ctx.Producto.ToList<Producto>();
 
-                return ControllerUtil.getList(productos);
+                return ControllerUtil.toJSON(productos);
             } 
         }
     }

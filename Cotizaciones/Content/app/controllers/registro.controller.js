@@ -1,5 +1,6 @@
 ﻿angular.module("main").controller("RegistroController", function (Utils,APP) {
 
+    var self = this;
     this.pedido = {};
 
     this.detalle = [];
@@ -50,7 +51,16 @@
 
     this.registrar = function () {
 
-        Utils.
+        Utils.Rest.save(APP.URL_API + "cotizacion/" + this.pedido.PedidoId).success(function (data) {
+
+            console.log("Cotizacion", data);
+
+            for (var i = 0; i < self.detalle.length; i++) {
+                self.detalle[i].cotizacionId = data.cotizacionId;
+                Utils.Rest.save(APP.URL_API + "cotizaciondetalle", self.detalle[i]);
+            }
+
+        });
     }
 
 });
