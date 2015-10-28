@@ -65,12 +65,15 @@
   <ItemGroup>
     <Compile Include="Controllers\CotizacionController.cs" />
     <Compile Include="Controllers\CotizacionDetalleController.cs" />
+    <Compile Include="Controllers\EmailController.cs" />
     <Compile Include="Controllers\PedidoController.cs" />
     <Compile Include="Controllers\DatabaseController.cs" />
     <Compile Include="Controllers\IndexController.cs" />
     <Compile Include="Controllers\ProductoController.cs" />
     <Compile Include="Controllers\TipoController.cs" />
     <Compile Include="Controllers\Util\ControllerUtil.cs" />
+    <Compile Include="Controllers\Util\EmailUtil.cs" />
+    <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Pedido.cs" />
     <Compile Include="Models\Context.cs" />
     <Compile Include="Models\Cotizacion.cs" />

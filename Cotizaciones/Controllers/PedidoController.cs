@@ -16,6 +16,7 @@ namespace Cotizaciones.Controllers
         {
             Get["/"] = index;
             Post["/"] = add;
+            Put["/{PedidoId}"] = actualizar;
         }
 
         private dynamic index(dynamic args)
@@ -45,5 +46,23 @@ namespace Cotizaciones.Controllers
             catch (Exception) { }
             return new Response { StatusCode = HttpStatusCode.InternalServerError };
         }
+
+
+        private dynamic actualizar(dynamic args)
+        {
+            using (var ctx = new Context())
+            {
+                int pedidoId = args.PedidoId;
+                var pedido = ctx.Pedido.SingleOrDefault(b => b.PedidoId == pedidoId);
+                if (pedido != null)
+                {
+                    pedido.Atendido = true;
+                    ctx.SaveChanges();
+                }
+
+                return Negotiate.WithStatusCode(HttpStatusCode.OK).WithModel(pedido);
+            }
+        }
+
     }
 }

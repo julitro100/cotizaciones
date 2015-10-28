@@ -19,7 +19,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr data-ng-repeat="pedido in regCtrl.pedidos">
+							<tr data-ng-repeat="pedido in regCtrl.pedidos" data-ng-class="{'warning': pedido.Atendido}">
 								<td>{{$index+1}}</td>
 								<td>{{pedido.Nombre}}</td>								
 								<td>{{pedido.Empresa}}</td>
@@ -27,7 +27,7 @@
                 <td>{{pedido.Telefono}}</td>
                 <td>{{pedido.Detalle}}</td>
 								<td>
-									<button data-ng-click="regCtrl.responder(pedido)" class="btn btn-info bmd-ripple">
+									<button data-ng-hide="pedido.Atendido" data-ng-click="regCtrl.responder(pedido)" class="btn btn-info bmd-ripple">
 										<i class="fa fa-pencil-square-o"></i>
 										Responder
 									</button>
@@ -100,7 +100,7 @@
 		            	</div>
 						<div class="col-md-10" style="margin-left: 15px;">
 							<div class="table-responsive bmd-ripple">
-								<table class="table table-striped table-hover table-bordered">
+								<table id="cotizacion" style="border: 1px solid #ddd;" class="table table-striped table-hover table-bordered">
 									<thead>
 										<tr>
 											<th class="col-md-1">Nº</th>
@@ -115,8 +115,8 @@
 											<td>{{$index +1}}</td>
 											<td>{{producto.productoId | tipo : regCtrl.productos : "ProductoId" : "Descripcion" }}</td>
 											<td>{{producto.cantidad}}</td>
-											<td>{{producto.precio | currency }}</td>
-											<td>{{producto.subtotal | currency  }}</td>							
+											<td>{{producto.precio | currency : "$" }}</td>
+											<td>{{producto.subtotal | currency : "$"  }}</td>							
 										</tr>
 									</tbody>
                   <tfooter>

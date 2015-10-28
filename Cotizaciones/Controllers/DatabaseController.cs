@@ -43,7 +43,7 @@ namespace Cotizaciones.Controllers
         {
             using (var ctx = new Context())
             {
-                // Tipo
+                // Tipos Producto
                 ctx.Tipo.Add(new Tipo()
                 {
                     Descripcion = "Producto"
@@ -56,6 +56,42 @@ namespace Cotizaciones.Controllers
                 });
                 ctx.SaveChanges();
 
+                //Productos
+                ctx.Producto.Add(new Producto()
+                {
+                    Descripcion = "Producto 1",
+                    Precio = 10,
+                    TipoId = 1,
+                    Stock = 10
+                });
+                ctx.SaveChanges();
+
+                ctx.Producto.Add(new Producto()
+                {
+                    Descripcion = "Producto 2",
+                    Precio = 11,
+                    TipoId = 1,
+                    Stock = 10
+                });
+                ctx.SaveChanges();
+
+                ctx.Producto.Add(new Producto()
+                {
+                    Descripcion = "Servicio 1",
+                    Precio = 12,
+                    TipoId = 2,
+                    Stock = 0
+                });
+                ctx.SaveChanges();
+
+                ctx.Producto.Add(new Producto()
+                {
+                    Descripcion = "Servicio 1",
+                    Precio = 10,
+                    TipoId = 2,
+                    Stock = 0
+                });
+                ctx.SaveChanges();
                
                 return "Database Seeded";
             }

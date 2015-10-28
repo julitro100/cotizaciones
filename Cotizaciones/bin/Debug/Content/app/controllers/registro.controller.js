@@ -60,6 +60,18 @@
                 Utils.Rest.save(APP.URL_API + "cotizaciondetalle", self.detalle[i]);
             }
 
+            var email = {};
+            email.a = self.pedido.Email;
+            email.asunto = "Respuesta Consulta"
+            email.contenido = $("#cotizacion").html();
+            Utils.Rest.save(APP.URL_API + "email", email);
+
+            $(".modal-responder").modal("hide");
+
+            Utils.Rest.update(APP.URL_API + "pedido/" + self.pedido.PedidoId);
+
+            Utils.Notification.info("Se atendio con exito");
+
         });
     }
 
