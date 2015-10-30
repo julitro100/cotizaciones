@@ -1,48 +1,110 @@
-
 <div id="myTabContent" class="tab-content" data-ng-controller="PedidoController as pedidoCtrl">
-  	<div class="tab-pane fade active in" id="home-2">
-  		
-  		   
-  	</div>
-  	<div class="tab-pane fade" id="profile-2">
-    	<div class="list-group bmd-list-group-info">
-	    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m8!1m3!1d1633.358825960666!2d-77.104081!3d-12.059228!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e0!4m0!4m3!3m2!1d-12.0597596!2d-77.1044149!5e1!3m2!1ses!2spe!4v1417922883769" width="800" height="600" frameborder="0" style="border:0">
-	    	</iframe>
-    	</div>
-  	</div>
-  	<div class="tab-pane fade" id="dropdown1-2">
-    	<div class="list-group bmd-list-group-info">
-			<a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-info-item-1" aria-expanded="false">
-				Misión
-				<span class="badge bmd-bg-info"></span>
-			</a>
-			<div id="accordion-info-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
-				<a href="#" class="list-group-item">
-					<span style="padding-left:15px">
-						"Es brindar nuestro asesoramiento necesario y adecuado a nuestros clientes ofreciendo productos de prestigiosas marcas reconocidas en el mercado mundial, proyectos y estudios de ingenieria, arquitectura con soluciones confiables, economicas y eficientes."
-					</span>
-				</a>
+  	<div class="tab-pane fade active in" id="home-primary">
+	    <div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Bienvenidos a GRISIA S.A.C.</h3>
 			</div>
-			<a href="#" class="list-group-item collapsed bmd-ripple" data-toggle="collapse" data-target="#accordion-info-item-2">
-				Visión
-				<span class="badge bmd-bg-info"></span>
-			</a>
-			<div id="accordion-info-item-2" class="collapse">
-				<a href="#" class="list-group-item">
-					<span style="padding-left:15px">
-						"Ser una empresa reconocida, renombrada y demandante en el rubro del aire acondicionado, refrigeracion y ventilacion industrial gracias a la buena reputacion y distincion adquirida por nuestros productos y servicios de calidad y garantia, logrando asi competir exitosamente en el mercado nacional."
-					</span>
-				</a>
+			<div class="panel-body">			
+				<p align="justify">
+					<strong>Grupo Rivera Servicios de Ingeniería y Arquitectura S.A.C (GRISIA S.A.C)</strong> es una empresa dedicada al rubro de aire acondicionado, calefacción, ventilación, refrigeración industrial y drywall fundada desde el 2008 con el único objetivo de brindar productos y servicios de calidad y garantía que cumplan con las exigencias requeridas por nuestros clientes finales.
+				</p>
+				<p align="justify">
+					GRISIA S.A.C. apunta a cumplir su misión como empresa para así lograr en un futuro cercano ser una empresa líder y reconocida a nivel nacional cumpliendo con los valores de búsqueda constante de mejora de la calidad, profesionalismo, pasión por lo que hacemos y respeto por el cliente.
+				</p>
+				<p align="justify">
+					Actualmente nuestra empresa brinda una gran variedad de servicios de climatización y productos de prestigiosas marcas y contamos con un equipo de técnicos calificados y de gran experiencia en el rubro el cual nos ha permitido cumplir con las necesidades y exigencias de nuestros clientes que confían en nosotros y nos ha permitido establecernos en este mercado tan competitivo y exigente que es hoy en día.
+				</p>
+				<p align="justify">
+					Nuestra oficina central se encuentra ubicada en calle 52 Mz. D 2 lote 14 urb. Ciudad del Pescador Bellavista – Callao en donde contamos con nuestras diversas áreas y el personal calificado para atender y dar soluciones integrales a todos los requerimiento de manera personalizada, eficiente y oportuna.
+				</p>
 			</div>
 		</div>
+	</div>
+  	<div class="tab-pane fade" id="profile-primary">
+	    <div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Misión</h3>
+			</div>
+			<div class="panel-body">			
+				<p align="justify">
+					"Es brindar nuestro asesoramiento necesario y adecuado a nuestros clientes ofreciendo productos de prestigiosas marcas reconocidas en el mercado mundial, proyectos y estudios de ingenieria, arquitectura con soluciones confiables, economicas y eficientes."
+				</p>				
+			</div>
+		</div>
+	    <div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Visión</h3>
+			</div>
+			<div class="panel-body">			
+				<p align="justify">
+					"Ser una empresa reconocida, renombrada y demandante en el rubro del aire acondicionado, refrigeracion y ventilacion industrial gracias a la buena reputacion y distincion adquirida por nuestros productos y servicios de calidad y garantia, logrando asi competir exitosamente en el mercado nacional."
+				</p>				
+			</div>
+		</div>		
   	</div>
-	<div class="tab-pane fade" id="dropdown2-2">
-		<div class="list-group bmd-list-group-warning">
-  			<a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-warning-item-1" aria-expanded="false">
+  	<div class="tab-pane fade" id="dropdown1-primary">
+		<!-- <div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">Servicios que Brindamos</h3>
+				</div>
+				<div class="panel-body">			
+					<div class="list-group bmd-list-group-info">
+						<a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-info-item-1" aria-expanded="false">
+							<strong>Instalaciones</strong>
+							<span class="badge bmd-bg-info"></span>
+						</a>
+						<div id="accordion-info-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
+							<a href="#" class="list-group-item">
+								<p align="justify">
+									Cada cliente tiene una situacion distinta a los demas para lo cual nosotros analizamos todas las circunstancias y proponemos soluciones innovadoras para lograr entregar la mejor instalacion en el plazo y precio pactado.
+								</p>
+							</a>
+						</div>
+						<a href="#" class="list-group-item collapsed bmd-ripple" data-toggle="collapse" data-target="#accordion-info-item-2">
+							<strong>Mantenimiento y Reparaciones</strong>
+							<span class="badge bmd-bg-info"></span>
+						</a>
+						<div id="accordion-info-item-2" class="collapse">
+							<a href="#" class="list-group-item">
+								<p align="justify">
+									Ofrecemos servicios de asistencia tecnica de mantenimiento preventivo y correctivo a toda una gama y variedad de equipos de aire acondicionado, calefaccion, ventilacion y refrigeracion industrial.<br/>
+									Reparaciones de motores electricos de extractores e inyectores, reparacion de compresores hermeticos y semihermeticos teniendo como principio la experiencia de nuetsros tecnicos para soluciones especificas.
+								</p>
+							</a>
+						</div>
+						<a href="#" class="list-group-item collapsed bmd-ripple" data-toggle="collapse" data-target="#accordion-info-item-3">
+							<strong>Venta de Respuestos</strong>
+							<span class="badge bmd-bg-info"></span>
+						</a>
+						<div id="accordion-info-item-3" class="collapse">
+							<a href="#" class="list-group-item">
+								<p align="justify">
+									Contamos con un amplio stock de repuestos originales y alternativos de alta calidad y garantia para la refrigeracion comercial e industrial tales como compresores, motores electricos, valvulas, controles termostaticos y repuestos en general.
+								</p>
+							</a>
+						</div>
+						<a href="#" class="list-group-item collapsed bmd-ripple" data-toggle="collapse" data-target="#accordion-info-item-4">
+							<strong>Drywall - Cielo Raso</strong>
+							<span class="badge bmd-bg-info"></span>
+						</a>
+						<div id="accordion-info-item-4" class="collapse">
+							<a href="#" class="list-group-item">
+								<p align="justify">
+									Contamos con personal capacitado y especializado para brindar asesoramiento y ejecucion de proyectos tanto para empresas, oficinas, locales comerciales, centros educativos, viviendas, restaurantes, hoteles, etc; ofreciendole a realizar complejos diseños en locales de reducidas dimensiones y teniendo una opcion economica para remodelar y decorar diferentes ambientes.
+								</p>
+							</a>
+						</div>
+					</div>				
+				</div>
+		</div> -->
+  	</div>
+  	<div class="tab-pane fade" id="dropdown2-primary">
+    	<div class="list-group bmd-list-group-primary">
+  			<a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-primaryprimary-item-1" aria-expanded="false">
     			AIRE ACONDICIONADO TIPO SPLIT PARED
-    			<span class="badge bmd-bg-warning"></span>
+    			<span class="badge bmd-bg-primary"></span>
   			</a>
-	  		<div id="accordion-warning-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
+	  		<div id="accordion-primaryprimary-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
 	    		<div class="rows">
 	    			<div class="col-md-6">
 			    		<a href="#" class="list-group-item"><span style="padding-left:15px">Para hogares, tiendas, oficinas.</span></a>
@@ -62,11 +124,11 @@
 		    	</div>
 		    </div>
 
-		    <a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-warning-item-1" aria-expanded="false">
+		    <a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-primary-item-1" aria-expanded="false">
     			AIRE ACONDICIONADO TIPO VENTANA
-    			<span class="badge bmd-bg-warning"></span>
+    			<span class="badge bmd-bg-primary"></span>
   			</a>
-	  		<div id="accordion-warning-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
+	  		<div id="accordion-primary-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
 	    		<div class="rows">
 	    			<div class="col-md-6">
 			    		<a href="#" class="list-group-item"><span style="padding-left:15px">Ideal para hogares, oficinas y tiendas.</span></a>
@@ -84,11 +146,11 @@
 		    	</div>
 		    </div>
 
-		    <a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-warning-item-1" aria-expanded="false">
+		    <a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-primary-item-1" aria-expanded="false">
     			AIRE ACONDICIONADO TIPO SPLIT PISO TECHO
-    			<span class="badge bmd-bg-warning"></span>
+    			<span class="badge bmd-bg-primary"></span>
   			</a>
-	  		<div id="accordion-warning-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
+	  		<div id="accordion-primary-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
 	    		<div class="rows">
 	    			<div class="col-md-6">
 			    		<a href="#" class="list-group-item"><span style="padding-left:15px">Ideal para pequeños y medianos ambientes.</span></a>
@@ -106,11 +168,11 @@
 		    		</div>
 		    	</div>
 		    </div>
-		    <a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-warning-item-1" aria-expanded="false">
+		    <a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-primary-item-1" aria-expanded="false">
     			AIRE ACONDICIONADO TIPO SPLIT PISO TECHO
-    			<span class="badge bmd-bg-warning"></span>
+    			<span class="badge bmd-bg-primary"></span>
   			</a>
-	  		<div id="accordion-warning-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
+	  		<div id="accordion-primary-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
 	    		<div class="rows">
 	    			<div class="col-md-6">
 			    		<a href="#" class="list-group-item"><span style="padding-left:15px">Ideal para pequeños y medianos ambientes.</span></a>
@@ -128,11 +190,11 @@
 		    	</div>
 		    </div>
 
-		    <a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-warning-item-1" aria-expanded="false">
+		    <a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-primary-item-1" aria-expanded="false">
     			AIRE ACONDICIONADO TIPO SPLIT DUCTO
-    			<span class="badge bmd-bg-warning"></span>
+    			<span class="badge bmd-bg-primary"></span>
   			</a>
-	  		<div id="accordion-warning-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
+	  		<div id="accordion-primary-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
 	    		<div class="rows">
 	    			<div class="col-md-6">
 			    		<a href="#" class="list-group-item"><span style="padding-left:15px">Para tiendas, oficinas, salas de operaciones, auditorios, cines.</span></a>
@@ -151,11 +213,11 @@
 		    	</div>
 		    </div>
 
-		    <a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-warning-item-1" aria-expanded="false">
+		    <a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-primary-item-1" aria-expanded="false">
     			AIRE ACONDICIONADO TIPO PAQUETE
-    			<span class="badge bmd-bg-warning"></span>
+    			<span class="badge bmd-bg-primary"></span>
   			</a>
-	  		<div id="accordion-warning-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
+	  		<div id="accordion-primary-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
 	    		<div class="rows">
 	    			<div class="col-md-6">
 			    		<a href="#" class="list-group-item"><span style="padding-left:15px">Para conectarle ductos que distribuyan el aire dentro de los ambientes acondicionados.</span></a>
@@ -176,13 +238,62 @@
 		    	</div>
 		    </div>
 		</div>
- 	</div>
-  	<div class="tab-pane fade" id="dropdown3-3">
-		<div class="panel panel-default">
+  	</div>
+  	<div class="tab-pane fade" id="dropdown3-second">
+		<div class="list-group bmd-list-group-info">
+			<a href="#" class="list-group-item bmd-ripple collapsed" data-toggle="collapse" data-target="#accordion-info-item-1" aria-expanded="false">
+				<strong>Instalaciones</strong>
+				<span class="badge bmd-bg-info"></span>
+			</a>
+			<div id="accordion-info-item-1" class="collapse" aria-expanded="false" style="height: 0px;">
+				<a href="#" class="list-group-item">
+					<p align="justify">
+						Cada cliente tiene una situacion distinta a los demas para lo cual nosotros analizamos todas las circunstancias y proponemos soluciones innovadoras para lograr entregar la mejor instalacion en el plazo y precio pactado.
+					</p>
+				</a>
+			</div>
+			<a href="#" class="list-group-item collapsed bmd-ripple" data-toggle="collapse" data-target="#accordion-info-item-2">
+				<strong>Mantenimiento y Reparaciones</strong>
+				<span class="badge bmd-bg-info"></span>
+			</a>
+			<div id="accordion-info-item-2" class="collapse">
+				<a href="#" class="list-group-item">
+					<p align="justify">
+						Ofrecemos servicios de asistencia tecnica de mantenimiento preventivo y correctivo a toda una gama y variedad de equipos de aire acondicionado, calefaccion, ventilacion y refrigeracion industrial.<br/>
+						Reparaciones de motores electricos de extractores e inyectores, reparacion de compresores hermeticos y semihermeticos teniendo como principio la experiencia de nuetsros tecnicos para soluciones especificas.
+					</p>
+				</a>
+			</div>
+			<a href="#" class="list-group-item collapsed bmd-ripple" data-toggle="collapse" data-target="#accordion-info-item-3">
+				<strong>Venta de Respuestos</strong>
+				<span class="badge bmd-bg-info"></span>
+			</a>
+			<div id="accordion-info-item-3" class="collapse">
+				<a href="#" class="list-group-item">
+					<p align="justify">
+						Contamos con un amplio stock de repuestos originales y alternativos de alta calidad y garantia para la refrigeracion comercial e industrial tales como compresores, motores electricos, valvulas, controles termostaticos y repuestos en general.
+					</p>
+				</a>
+			</div>
+			<a href="#" class="list-group-item collapsed bmd-ripple" data-toggle="collapse" data-target="#accordion-info-item-4">
+				<strong>Drywall - Cielo Raso</strong>
+				<span class="badge bmd-bg-info"></span>
+			</a>
+			<div id="accordion-info-item-4" class="collapse">
+				<a href="#" class="list-group-item">
+					<p align="justify">
+						Contamos con personal capacitado y especializado para brindar asesoramiento y ejecucion de proyectos tanto para empresas, oficinas, locales comerciales, centros educativos, viviendas, restaurantes, hoteles, etc; ofreciendole a realizar complejos diseños en locales de reducidas dimensiones y teniendo una opcion economica para remodelar y decorar diferentes ambientes.
+					</p>
+				</a>
+			</div>
+		</div>				
+  	</div>
+  	<div class="tab-pane fade" id="profile-second">
+  		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h3 class="panel-title">Contáctanos</h3>
 			</div>
-			<div class="panel-body">
+			<div id="formulario-pedido" class="panel-body">
 				<div class="rows">
 					<div class="col-md-3">						
 			    	</div>
@@ -205,7 +316,7 @@
 						</div>
 						<div class="form-group">
 							<div class="bmd-field-group">
-								<input id="txt-telefono" type="text" class="bmd-input" data-ng-model="pedidoCtrl.pedido.telefono" required="" />
+								<input id="txt-telefono" type="number" class="bmd-input" data-ng-model="pedidoCtrl.pedido.telefono" required="" />
 								<span class="bmd-bar"></span>
 								<label class="bmd-label">Teléfono</label>
 								<span class="bmd-field-feedback"></span>
@@ -213,9 +324,9 @@
 						</div>
 						<div class="form-group">
 							<div class="bmd-field-group">
-								<input id="txt-email" type="email" class="bmd-input" data-ng-model="pedidoCtrl.pedido.email" required="" />
+								<input id="txt-email" type="email" class="bmd-input" data-ng-model="pedidoCtrl.pedido.email" required/>
 								<span class="bmd-bar"></span>
-								<label class="bmd-label">E-mail</label>
+								<label class="bmd-label">Correo Electrónico</label>
 								<span class="bmd-field-feedback"></span>
 							</div>
 						</div>
@@ -228,8 +339,8 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<div class="col-lg-10 col-lg-offset-2">
-								<button href="#" class="btn btn-primary bmd-ripple" data-ng-click="pedidoCtrl.guardar()">Enviar</button>
+							<div class="col-md-12" align="center">
+								<button href="#" class="btn btn-primary bmd-ripple bmd-floating" data-ng-click="pedidoCtrl.guardar()">Enviar</button>
 							</div>
 						</div>
 					</div>
@@ -247,6 +358,12 @@
 				    <p style="text-align: center">E-mail: <a href="mailto:ventas@grisiasac.com.pe"> ventas@grisiasac.com.pe</a></p>
 			    </p>
 			</div>
-		</div>
+		</div>    	
   	</div>
+   	<div class="tab-pane fade" id="profile-third">
+    	<div class="list-group bmd-list-group-info">
+	    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m8!1m3!1d1633.358825960666!2d-77.104081!3d-12.059228!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e0!4m0!4m3!3m2!1d-12.0597596!2d-77.1044149!5e1!3m2!1ses!2spe!4v1417922883769" width="600" height="400" frameborder="0" style="border:0">
+	    	</iframe>
+		</div>
+  	</div>  
 </div>

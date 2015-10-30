@@ -1,0 +1,193 @@
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Cotizaciones.exe.config
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\controllers\pedido.controller.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\app.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\config\config.app.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\config\config.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\controllers\registro.controller.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\filters\date.filter.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\filters\tipo.filter.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\filters\total.filter.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\index.html
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\services\utils\mask.service.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\services\utils\notification.service.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\services\utils\tab.service.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\services\utils\utils.service.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\services\utils\validation.service.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\bootstrap.min.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\datepicker.min.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\flaticon.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\font-awesome.min.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\jquery.notify.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\login.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\main.min.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\prettify.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\reset.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\select2-bootstrap.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\select2.min.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\selectize.bootstrap3.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\selectize.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\simple-sidebar.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\styles.css
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\flaticon.svg
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\fontawesome-webfont.svg
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\glyphicons-halflings-regular.svg
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\AA_Paquete.jpg
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\AA_Slipt Ducto.jpg
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\AA_split pared.jpg
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\AA_split piso techo.gif
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\AA_ventana.JPG
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\aire_acondicionado_nov.jpg
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\cabecera-foto.jpg
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\Copia de icono.png
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\flecha.gif
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\logo1.png
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\logo2.png
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\logo_construccion.png
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\quienessomos.jpg
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\servicios.JPG
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\img\servicios2.jpg
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\angular-route.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\angular.locale.es.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\angular.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\bootstrap.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\datepicker.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\jquery.easing.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\jquery.inputmask.bundle.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\jquery.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\jquery.notify.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\jspdf.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\main.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\moment.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\moment.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\prettify.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\select2.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\selectize.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\string.min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\js\taffy-min.js
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Views\index.html
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Views\login.html
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\views\contacto.jsp
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\app\views\registrocotizacion.jsp
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\css\bootstrap.min.csss
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\flaticon.ttf
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\flaticon.woff
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\fontawesome-webfont.eot
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\fontawesome-webfont.ttf
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\fontawesome-webfont.woff
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\fontawesome-webfont.woff2
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\FontAwesome.otf
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\glyphicons-halflings-regular.eot
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\glyphicons-halflings-regular.ttf
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\glyphicons-halflings-regular.woff
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\glyphicons-halflings-regular.woff2
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Cotizaciones.exe
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Cotizaciones.pdb
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\EntityFramework.dll
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Nancy.dll
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Nancy.Hosting.Self.dll
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Newtonsoft.Json.dll
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\EntityFramework.xml
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Nancy.xml
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Nancy.Hosting.Self.xml
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\bin\Release\Newtonsoft.Json.xml
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\obj\Release\Cotizaciones.exe
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\obj\Release\Cotizaciones.pdb
+C:\Users\Julio\Desktop\Gian\DVD TESIS\Cotizaciones\Cotizaciones\obj\Release\Cotizaciones.csprojResolveAssemblyReference.cache
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Cotizaciones.exe.config
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\controllers\pedido.controller.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\app.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\config\config.app.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\config\config.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\controllers\registro.controller.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\filters\date.filter.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\filters\tipo.filter.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\filters\total.filter.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\index.html
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\services\utils\mask.service.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\services\utils\notification.service.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\services\utils\tab.service.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\services\utils\utils.service.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\services\utils\validation.service.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\bootstrap.min.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\datepicker.min.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\flaticon.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\font-awesome.min.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\jquery.notify.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\login.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\main.min.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\prettify.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\reset.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\select2-bootstrap.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\select2.min.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\selectize.bootstrap3.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\selectize.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\simple-sidebar.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\styles.css
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\flaticon.svg
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\fontawesome-webfont.svg
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\glyphicons-halflings-regular.svg
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\AA_Paquete.jpg
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\AA_Slipt Ducto.jpg
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\AA_split pared.jpg
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\AA_split piso techo.gif
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\AA_ventana.JPG
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\aire_acondicionado_nov.jpg
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\cabecera-foto.jpg
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\Copia de icono.png
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\flecha.gif
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\logo1.png
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\logo2.png
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\logo_construccion.png
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\quienessomos.jpg
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\servicios.JPG
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\img\servicios2.jpg
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\angular-route.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\angular.locale.es.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\angular.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\bootstrap.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\datepicker.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\jquery.easing.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\jquery.inputmask.bundle.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\jquery.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\jquery.notify.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\jspdf.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\main.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\moment.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\moment.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\prettify.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\select2.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\selectize.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\string.min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\js\taffy-min.js
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Views\index.html
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Views\login.html
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\views\contacto.jsp
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\app\views\registrocotizacion.jsp
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\css\bootstrap.min.csss
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\flaticon.ttf
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\flaticon.woff
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\fontawesome-webfont.eot
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\fontawesome-webfont.ttf
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\fontawesome-webfont.woff
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\fontawesome-webfont.woff2
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\FontAwesome.otf
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\glyphicons-halflings-regular.eot
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\glyphicons-halflings-regular.ttf
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\glyphicons-halflings-regular.woff
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Content\fonts\glyphicons-halflings-regular.woff2
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Cotizaciones.exe
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Cotizaciones.pdb
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\EntityFramework.dll
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Nancy.dll
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Nancy.Hosting.Self.dll
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Newtonsoft.Json.dll
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\EntityFramework.xml
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Nancy.xml
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Nancy.Hosting.Self.xml
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\bin\Release\Newtonsoft.Json.xml
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\obj\Release\Cotizaciones.exe
+C:\Users\usi3\Desktop\System_A\Cotizaciones\Cotizaciones\obj\Release\Cotizaciones.pdb

@@ -13,14 +13,12 @@
     this.pedidos = [];
 
     Utils.Rest.getList(this, APP.URL_API + "pedido", "pedidos").success(function (data) {
-
         console.log("Pedidos", data);
     });
 
     this.productos = [];
 
     Utils.Rest.getList(this, APP.URL_API + "producto", "productos").success(function (data) {
-
         console.log("Productos", data);
     });
 
@@ -29,7 +27,6 @@
 
         this.pedido = pPedido;
         console.log("Responder", pPedido);
-
         $(".modal-responder").modal("show");
     }
 
@@ -43,16 +40,20 @@
     }
 
     this.productoSelected = function () {
-
         this.producto.precio = Utils.UI.Select.getSelectedAttr("sel-producto","data-precio");
-
         console.log("Producto change", this.producto.precio);
     }
 
     this.registrar = function () {
 
-        Utils.Rest.save(APP.URL_API + "cotizacion/" + this.pedido.PedidoId).success(function (data) {
+        Utils.Validation.init();
+        Utils.Validation.required("#sel-producto", "Producto ó Servicio");
+        Utils.Validation.required("#txt-cantidad", "Cantidad");
+        Utils.Validation.required("#txt-precio", "Precio");
+        //Utils.Validation.required("#cotizacion", "Tabla de Cotización");
 
+        if (Utils.Validation.run()) {
+            Utils.Rest.save(APP.URL_API + "cotizacion/" + this.pedido.PedidoId).success(function (data) {
             console.log("Cotizacion", data);
 
             for (var i = 0; i < self.detalle.length; i++) {
@@ -62,17 +63,16 @@
 
             var email = {};
             email.a = self.pedido.Email;
-            email.asunto = "Respuesta Consulta"
+            email.asunto = "Respuesta a Cotización"
             email.contenido = $("#cotizacion").html();
             Utils.Rest.save(APP.URL_API + "email", email);
 
             $(".modal-responder").modal("hide");
-
             Utils.Rest.update(APP.URL_API + "pedido/" + self.pedido.PedidoId);
+            Utils.Notification.info("Pedido atendido con exito");
 
-            Utils.Notification.info("Se atendio con exito");
-
-        });
+            });
+        }
     }
 
 });
